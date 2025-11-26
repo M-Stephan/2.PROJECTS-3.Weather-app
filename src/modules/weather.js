@@ -146,17 +146,17 @@ function showWeatherNow(date, temp, desc, weather, wind, humidity, city, timesta
 
     // Récupère les images en fonction de la description de l'objet de la réponse
     if (desc.toLowerCase().trim() === 'few clouds' || desc.toLowerCase().trim() === 'scattered clouds') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/cloudy.png"; //Partiellement ensoleillé
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/cloudy.png"; //Partiellement ensoleillé
     } else if (desc.toLowerCase().trim() === 'broken clouds' || desc.toLowerCase().trim() === 'overcast clouds') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/clouds.png"; // Nuageux 
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/clouds.png"; // Nuageux 
     } else if (weather.toLowerCase().trim() === 'snow') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/snow.png"; // Neige
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/snow.png"; // Neige
     } else if (weather.toLowerCase().trim() === 'rain') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/rainy.png"; // Pluie
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/rainy.png"; // Pluie
     } else if (weather.toLowerCase().trim() === 'thunderstorm') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/thunder.png"; // Orage
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/thunder.png"; // Orage
     } else {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/sunny.png"; // ensoleillé par defaut
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/sunny.png"; // ensoleillé par defaut
     };
 
     const day = getDate(timestamp);
@@ -212,17 +212,17 @@ function showOtherForecasts(response) {
         let icon; //Initialise l'icon undefined
 
         if (desc.toLowerCase().trim() === 'few clouds' || desc.toLowerCase().trim() === 'scattered clouds') {
-            icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/cloudy.png"; //Partiellement ensoleillé
+            icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/cloudy.png"; //Partiellement ensoleillé
         } else if (desc.toLowerCase().trim() === 'broken clouds' || desc.toLowerCase().trim() === 'overcast clouds') {
-            icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/clouds.png"; // Nuageux 
+            icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/clouds.png"; // Nuageux 
         } else if (weatherType.toLowerCase() === 'snow') {
-            icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/snow.png"; // Neige
+            icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/snow.png"; // Neige
         } else if (weatherType.toLowerCase() === 'rain') {
-            icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/rainy.png"; // Pluie
+            icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/rainy.png"; // Pluie
         } else if (weatherType.toLowerCase() === 'thunderstorm') {
-            icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/thunder.png"; // Orage
+            icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/thunder.png"; // Orage
         } else {
-            icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/sunny.png"; // Ensoleillé par defaut
+            icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/sunny.png"; // Ensoleillé par defaut
         };
 
         const day = getDate(timestamp); // Récupère le jour (ex: mon, tue, wed, etc..)
@@ -323,17 +323,17 @@ function createCard1(response, c) {
     let icon; //Initialise l'icon undefined
 
     if (desc.toLowerCase().trim() === 'few clouds' || desc.toLowerCase().trim() === 'scattered clouds') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/cloudy.png"; //Partiellement ensoleillé
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/cloudy.png"; //Partiellement ensoleillé
     } else if (desc.toLowerCase().trim() === 'broken clouds' || desc.toLowerCase().trim() === 'overcast clouds') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/clouds.png"; // Nuageux 
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/clouds.png"; // Nuageux 
     } else if (weatherType.toLowerCase() === 'snow') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/snow.png"; // Neige
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/snow.png"; // Neige
     } else if (weatherType.toLowerCase() === 'rain') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/rainy.png"; // Pluie
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/rainy.png"; // Pluie
     } else if (weatherType.toLowerCase() === 'thunderstorm') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/thunder.png"; // Orage
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/thunder.png"; // Orage
     } else {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/sunny.png"; // Ensoleillé par defaut
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/sunny.png"; // Ensoleillé par defaut
     };
     
     div.innerHTML =  `
@@ -379,17 +379,17 @@ function createCard2(response, c) {
     let icon; //Initialise l'icon undefined
 
     if (desc.toLowerCase().trim() === 'few clouds' || desc.toLowerCase().trim() === 'scattered clouds') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/cloudy.png"; //Partiellement ensoleillé
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/cloudy.png"; //Partiellement ensoleillé
     } else if (desc.toLowerCase().trim() === 'broken clouds' || desc.toLowerCase().trim() === 'overcast clouds') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/clouds.png"; // Nuageux 
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/clouds.png"; // Nuageux 
     } else if (weatherType.toLowerCase() === 'snow') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/snow.png"; // Neige
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/snow.png"; // Neige
     } else if (weatherType.toLowerCase() === 'rain') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/rainy.png"; // Pluie
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/rainy.png"; // Pluie
     } else if (weatherType.toLowerCase() === 'thunderstorm') {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/thunder.png"; // Orage
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/thunder.png"; // Orage
     } else {
-        icon = "https://m-stephan.github.io//2.PROJECTS-3.Weather-app/public/sunny.png"; // Ensoleillé par defaut
+        icon = "https://m-stephan.github.io/2.PROJECTS-3.Weather-app/public/sunny.png"; // Ensoleillé par defaut
     };
     
     div.innerHTML =  `
